@@ -17,45 +17,51 @@ import { DialogProjectsComponent } from '../../dialog/dialog-projects/dialog-pro
 export class ProjectsComponent {
 
   #dialog = inject(MatDialog);
-
+ 
   public arrayProjects = signal<Iprojects[]>([
     {
-      src:'assets/img/projects/vfull.png',
-      alt: 'Projeto vida fullStack',
-       title: 'Vida FullStack',
+      src:'assets/img/projects/D.png',
+      alt: 'Projeto DarkTheme',
+       title: 'DarkTheme',
         width:'100px',
          height: '51px',
           description: 
-          '<p>Explore o fascinante mundo do desemvolvimento no meu blog dedicado exclusivamento aos Dev´s</p>',
+          `<p>Este projeto tem o interesse de realizar a troca de temas conforme a vontade do 
+          usuário, assim, propiciando um tema amigavel para o seu ambiente!</p>`,
           link: [{
-            name: 'Conheça o blog',
-            href: 'https://vidafullstack.com.br'
+            name: 'Conheça o projeto',
+            href: 'https://project-darktheme.onrender.com'
           }]
       },
       {
-        src:'assets/img/projects/vfull.png',
-        alt: 'Projeto vida fullStack',
-         title: 'Vida FullStack',
+        src:'assets/img/projects/To-Do_List-removebg-preview.png',
+        alt: 'Projeto To-Do List v2',
+         title: 'To-Do List v2',
           width:'100px',
            height: '51px',
             description: 
-            '<p>Explore o fascinante mundo do desemvolvimento no meu blog dedicado exclusivamento aos Dev´s</p>',
+              `<p>Este projeto, ToDo List foi desenvolvido novamente para aperfeiçoamento
+              de sua temática, contudo, o projeto segue com as mesma intenções da versão 1
+              que é a organização de uma rotina de tarefas!
+              </p>`,
             link: [{
-              name: 'Conheça o blog',
-              href: 'https://vidafullstack.com.br'
+              name: 'Conheça o projeto',
+              href: 'https://todo-v2-1iuv.onrender.com'
             }]
         },
         {
-          src:'assets/img/projects/vfull.png',
-          alt: 'Projeto vida fullStack',
-           title: 'Vida FullStack',
+          src:'assets/img/projects/logo.svg',
+          alt: 'Projeto Pokedex',
+           title: 'Pokedex',
             width:'100px',
              height: '51px',
               description: 
-              '<p>Explore o fascinante mundo do desemvolvimento no meu blog dedicado exclusivamento aos Dev´s</p>',
+                `<p>Este desenvolvimento tem a funçao de trabalhar com os dados fornecidos
+                de um pequeno servidor onde, os pokemons estão inseridos e terá como retorno
+                as especificações do pokemom selecionado!<p/>`,
               link: [{
-                name: 'Conheça o blog',
-                href: 'https://vidafullstack.com.br'
+                name: 'Conheça o projeto',
+                href: 'https://pokedex-angular-16qn.onrender.com'
               }]
           },
           {
