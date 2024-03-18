@@ -9,4 +9,4 @@ export interface Iprojects{
         name: string
         href: string
     }
-    ]}
+    ]; }

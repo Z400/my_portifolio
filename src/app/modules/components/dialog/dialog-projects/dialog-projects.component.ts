@@ -19,8 +19,7 @@ export class DialogProjectsComponent implements OnInit{
   public closeDialog(){
     return this._dialogRef.close();
   }
-
-
+ 
   ngOnInit(): void {
     
     this.getData.set(this._data);

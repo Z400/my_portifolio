@@ -64,32 +64,32 @@ export class ProjectsComponent {
                 href: 'https://pokedex-angular-16qn.onrender.com'
               }]
           },
-          {
-            src:'assets/img/projects/vfull.png',
-            alt: 'Projeto vida fullStack',
-             title: 'Vida FullStack',
-              width:'100px',
-               height: '51px',
-                description: 
-                '<p>Explore o fascinante mundo do desemvolvimento no meu blog dedicado exclusivamento aos Dev´s</p>',
-                link: [{
-                  name: 'Conheça o blog',
-                  href: 'https://vidafullstack.com.br'
-                }]
-            },
-            {
-              src:'assets/img/projects/vfull.png',
-              alt: 'Projeto vida fullStack',
-               title: 'Vida FullStack',
-                width:'100px',
-                 height: '51px',
-                  description: 
-                  '<p>Explore o fascinante mundo do desemvolvimento no meu blog dedicado exclusivamento aos Dev´s</p>',
-                  link: [{
-                    name: 'Conheça o blog',
-                    href: 'https://vidafullstack.com.br'
-                  }]
-              }
+          // {
+          //   src:'assets/img/projects/vfull.png',
+          //   alt: 'Projeto vida fullStack',
+          //    title: 'Vida FullStack',
+          //     width:'100px',
+          //      height: '51px',
+          //       description: 
+          //       '<p>Explore o fascinante mundo do desemvolvimento no meu blog dedicado exclusivamento aos Dev´s</p>',
+          //       link: [{
+          //         name: 'Conheça o blog',
+          //         href: 'https://vidafullstack.com.br'
+          //       }]
+          //   },
+          //   {
+          //     src:'assets/img/projects/vfull.png',
+          //     alt: 'Projeto vida fullStack',
+          //      title: 'Vida FullStack',
+          //       width:'100px',
+          //        height: '51px',
+          //         description: 
+          //         '<p>Explore o fascinante mundo do desemvolvimento no meu blog dedicado exclusivamento aos Dev´s</p>',
+          //         link: [{
+          //           name: 'Conheça o blog',
+          //           href: 'https://vidafullstack.com.br'
+          //         }]
+          //     }
   ]);
 
    
