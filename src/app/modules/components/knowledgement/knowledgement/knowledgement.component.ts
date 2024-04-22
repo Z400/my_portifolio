@@ -12,7 +12,13 @@ export class KnowledgementComponent {
 
 
   public arrayKnowledge = signal<Iknowledge[]>(
-    [{
+    [
+            {
+        src:"assets/icons/knowledge/github.svg",
+        alt: "Icone de conhecimento em gitHub"
+  
+      },
+      {
       src:"assets/icons/knowledge/html5.svg",
       alt: "Icone de conhecimento em html5."
 
@@ -37,6 +43,12 @@ export class KnowledgementComponent {
       alt: "Icone de conhecimento em nodeJs"
 
     },
+        {
+      src:"assets/icons/knowledge/java.svg",
+      alt: "Icone de conhecimento em Java"
+
+    },
+    
      ]
   )
 
