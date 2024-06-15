@@ -73,7 +73,8 @@ export class ProjectsComponent {
               description: 
                 `<p>O SGEA é um acrônimo de SISTEMA DE GERENCIAMENTO DE ESTOQUE AUTOMOTIVO.
                  Este, tem a sua intenção em demonstrar conhecimentos um pouco mais a fundo utilizando
-                 Angular com NodeExpress para obter acessao ao MongoDB.<p/>`,
+                 Angular com NodeExpress para obter acessao ao MongoDB.
+                 OBS: Este projeto ainda esta em construção!<p/>`,
               link: [{
                 name: 'Conheça o projeto',
                 href: 'https://estatico-sgea.onrender.com'
