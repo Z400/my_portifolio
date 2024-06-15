@@ -62,8 +62,23 @@ export class ProjectsComponent {
               link: [{
                 name: 'Conheça o projeto',
                 href: 'https://pokedex-angular-16qn.onrender.com'
-              }]
+              }]              
           },
+          {
+            src:'assets/img/projects/logo_atualizada-removebg-preview.png',
+          alt: 'SGEA',
+           title: 'SGEA',
+            width:'100px',
+             height: '51px',
+              description: 
+                `<p>O SGEA é um acrônimo de SISTEMA DE GERENCIAMENTO DE ESTOQUE AUTOMOTIVO.
+                 Este, tem a sua intenção em demonstrar conhecimentos um pouco mais a fundo utilizando
+                 Angular com NodeExpress para obter acessao ao MongoDB.<p/>`,
+              link: [{
+                name: 'Conheça o projeto',
+                href: 'https://estatico-sgea.onrender.com'
+              }]    
+          }
           // {
           //   src:'assets/img/projects/vfull.png',
           //   alt: 'Projeto vida fullStack',
