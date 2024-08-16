@@ -78,8 +78,27 @@ export class ProjectsComponent {
               link: [{
                 name: 'Conheça o projeto',
                 href: 'https://estatico-sgea.onrender.com'
-              }]    
-          }
+              }],                  
+          },
+          {
+            src:'assets/img/projects/FTBankLogo.png',
+            alt: 'Projeto FTBank',
+             title: 'FTBank',
+              width:'430px',
+               height: '140px',
+                description: 
+                  `<p>FTBank, o projeto que promete entregar a ideia similar a sistema bancário para transferência e 
+                  depósito de valores. Este sistema está na reta final de seu desenvolvimento e aborda as seguintes linguagens, sendo elas,
+                  Java (Linguagem de programação), SpringBoot (Framework Backend) e Angular (Framework Frontend)!<p/>`,
+                link: [{
+                  name: 'Conheça o projeto',
+                  href: 'https://ftbank-estatico.onrender.com'
+                }]              
+            },
+
+
+
+
           // {
           //   src:'assets/img/projects/vfull.png',
           //   alt: 'Projeto vida fullStack',

@@ -70,6 +70,17 @@ export class KnowledgementComponent {
         alt: "Icone de conhecimento em nodeJs",
         title: "NodeJS"
       },
+      {
+        src:"assets/icons/knowledge/docker.svg",
+        alt: "Icone de conhecimento em docker",
+        title: "Docker"
+      },
+      {
+        src:"assets/icons/knowledge/icons8-logotipo-da-primavera.svg",
+        alt: "Icone de conhecimento em Springboot",
+        title: "Springboot"
+      },
+      
      ]
   )
 
