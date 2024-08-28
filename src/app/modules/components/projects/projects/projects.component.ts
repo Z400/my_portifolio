@@ -84,7 +84,7 @@ export class ProjectsComponent {
             src:'assets/img/projects/FTBankLogo.png',
             alt: 'Projeto FTBank',
              title: 'FTBank',
-              width:'430px',
+              width:'400px',
                height: '140px',
                 description: 
                   `<p>FTBank, o projeto que promete entregar a ideia similar a sistema bancário para transferência e 
