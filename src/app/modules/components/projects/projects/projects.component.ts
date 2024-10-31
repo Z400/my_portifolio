@@ -103,7 +103,7 @@ export class ProjectsComponent {
                  height: '140px',
                   description: 
                     `<p>O ponto de cadastro e registro é um sistema que visa entregar o acompanhamento mensal de colaboradores registrados
-                    de uma empresa particular. Nele, você consegue realizar login através de um gestor cadastrado e explorar suas funcionaldiades.
+                    de uma empresa particular. Nele, você consegue realizar login através de um gestor cadastrado e explorar suas funcionalidades.
                     O sistema foi desenvolvido utilizando Linguagem Java com springBoot, Angular acompanhado do bootstrap,
                      e banco de dados relacional Postgres!`,
                   link: [{
