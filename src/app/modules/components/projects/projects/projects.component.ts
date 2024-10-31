@@ -87,14 +87,30 @@ export class ProjectsComponent {
               width:'400px',
                height: '140px',
                 description: 
-                  `<p>FTBank, o projeto que promete entregar a ideia similar a sistema bancário para transferência e 
-                  depósito de valores. Este sistema está na reta final de seu desenvolvimento e aborda as seguintes linguagens, sendo elas,
-                  Java (Linguagem de programação), SpringBoot (Framework Backend) e Angular (Framework Frontend)!<p/>`,
+                  `<p>FTBank, o projeto que promete entregar a ideia similar a um sistema bancário para transferência e 
+                  depósito de valores entre usuarios deste mesmo sistema. Este sistema está na reta final de seu desenvolvimento e aborda as seguintes linguagens, sendo elas,
+                  Java, SpringBoot, Angular, e MongoDB, banco de dados não relacional!<p/>`,
                 link: [{
                   name: 'Conheça o projeto',
                   href: 'https://ftbank-estatico.onrender.com'
                 }]              
             },
+            {
+              src:'assets/img/projects/logo_pcrpoint.png',
+              alt: 'Ponto de cadastro e registro',
+               title: 'PCR.Point',
+                width:'400px',
+                 height: '140px',
+                  description: 
+                    `<p>O ponto de cadastro e registro é um sistema que visa entregar o acompanhamento mensal de colaboradores registrados
+                    de uma empresa particular. Nele, você consegue realizar login através de um gestor cadastrado e explorar suas funcionaldiades.
+                    O sistema foi desenvolvido utilizando Linguagem Java com springBoot, Angular acompanhado do bootstrap,
+                     e banco de dados relacional Postgres!`,
+                  link: [{
+                    name: 'Conheça o projeto',
+                    href: 'https://estatico-pac-point.onrender.com'
+                  }]              
+              }
 
 
 
