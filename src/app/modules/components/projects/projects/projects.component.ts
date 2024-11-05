@@ -110,7 +110,7 @@ export class ProjectsComponent {
                       vincular na tela de registrar ponto, fora do sistema!`,
                   link: [{
                     name: 'Conheça o projeto',
-                    href: 'https://estatico-pac-point.onrender.com'
+                    href: 'https://pcr-point.onrender.com/'
                   }]              
               }
 
