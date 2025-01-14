@@ -19,20 +19,20 @@ export class ProjectsComponent {
   #dialog = inject(MatDialog);
  
   public arrayProjects = signal<Iprojects[]>([
-    {
-      src:'assets/img/projects/D.png',
-      alt: 'Projeto DarkTheme',
-       title: 'DarkTheme',
-        width:'100px',
-         height: '51px',
-          description: 
-          `<p>Este projeto tem o interesse de realizar a troca de temas conforme a vontade do 
-          usuário, assim, propiciando um tema amigavel para o seu ambiente!</p>`,
-          link: [{
-            name: 'Conheça o projeto',
-            href: 'https://project-darktheme.onrender.com'
-          }]
-      },
+    // {
+    //   src:'assets/img/projects/D.png',
+    //   alt: 'Projeto DarkTheme',
+    //    title: 'DarkTheme',
+    //     width:'100px',
+    //      height: '51px',
+    //       description: 
+    //       `<p>Este projeto tem o interesse de realizar a troca de temas conforme a vontade do 
+    //       usuário, assim, propiciando um tema amigavel para o seu ambiente!</p>`,
+    //       link: [{
+    //         name: 'Conheça o projeto',
+    //         href: 'https://project-darktheme.onrender.com'
+    //       }]
+    //   },
       {
         src:'assets/img/projects/To-Do_List-removebg-preview.png',
         alt: 'Projeto To-Do List v2',
@@ -49,21 +49,21 @@ export class ProjectsComponent {
               href: 'https://todo-v2-1iuv.onrender.com'
             }]
         },
-        {
-          src:'assets/img/projects/logo.svg',
-          alt: 'Projeto Pokedex',
-           title: 'Pokedex',
-            width:'100px',
-             height: '51px',
-              description: 
-                `<p>Este desenvolvimento tem a funçao de trabalhar com os dados fornecidos
-                de um pequeno servidor onde, os pokemons estão inseridos e terá como retorno
-                as especificações do pokemom selecionado!<p/>`,
-              link: [{
-                name: 'Conheça o projeto',
-                href: 'https://pokedex-angular-16qn.onrender.com'
-              }]              
-          },
+        // {
+        //   src:'assets/img/projects/logo.svg',
+        //   alt: 'Projeto Pokedex',
+        //    title: 'Pokedex',
+        //     width:'100px',
+        //      height: '51px',
+        //       description: 
+        //         `<p>Este desenvolvimento tem a funçao de trabalhar com os dados fornecidos
+        //         de um pequeno servidor onde, os pokemons estão inseridos e terá como retorno
+        //         as especificações do pokemom selecionado!<p/>`,
+        //       link: [{
+        //         name: 'Conheça o projeto',
+        //         href: 'https://pokedex-angular-16qn.onrender.com'
+        //       }]              
+        //   },
           {
             src:'assets/img/projects/logo_atualizada-removebg-preview.png',
           alt: 'SGEA',
@@ -72,19 +72,21 @@ export class ProjectsComponent {
              height: '51px',
               description: 
                 `<p>O SGEA é um acrônimo de SISTEMA DE GERENCIAMENTO DE ESTOQUE AUTOMOTIVO.
-                 Este, tem a sua intenção em demonstrar conhecimentos um pouco mais a fundo utilizando
-                 Angular com NodeExpress para obter acessao ao MongoDB.
-                 OBS: Este projeto ainda esta em construção!<p/>`,
+                 O SGEA visa manter o controle de estoques e tambem de cadastro de colaboradores,
+                 fornecedores e produtos! Este Sistema web é progamado para emissão alertas quando
+                 há faturas perto de vencer e também quando é tentado realizar uma venda de um 
+                 produto quando o estoque está baixo. O SGEA possui sistema de login e proteção 
+                 de rota, onde, somente logado é possível acessar o sistema!<p/>`,
               link: [{
                 name: 'Conheça o projeto',
-                href: 'https://estatico-sgea.onrender.com'
+                href: 'https://sgea-new.onrender.com'
               }],                  
           },
           {
-            src:'assets/img/projects/FTBankLogo.png',
+            src:'assets/img/projects/FTBank_resized.png',
             alt: 'Projeto FTBank',
              title: 'FTBank',
-              width:'400px',
+              width:'150px',
                height: '140px',
                 description: 
                   `<p>FTBank, o projeto que promete entregar a ideia similar a um sistema bancário para transferência e 
@@ -96,10 +98,10 @@ export class ProjectsComponent {
                 }]              
             },
             {
-              src:'assets/img/projects/pcrpoint.png',
+              src:'assets/img/projects/pcrpoint_rsz.png',
               alt: 'Ponto de cadastro e registro',
                title: 'PCR.POINT',
-                width:'400px',
+                width:'150px',
                  height: '140px',
                   description: 
                     `<p>O ponto de cadastro e registro é um sistema que visa entregar o acompanhamento mensal de colaboradores registrados
