@@ -76,7 +76,9 @@ export class ProjectsComponent {
                  fornecedores e produtos! Este Sistema web é progamado para emissão alertas quando
                  há faturas perto de vencer e também quando é tentado realizar uma venda de um 
                  produto quando o estoque está baixo. O SGEA possui sistema de login e proteção 
-                 de rota, onde, somente logado é possível acessar o sistema!<p/>`,
+                 de rota, onde, somente logado é possível acessar o sistema!<p/>
+                   <p>Link da apresentação: https://www.linkedin.com/feed/update/urn:li:activity:7285343838129299457/</p> 
+                  `,
               link: [{
                 name: 'Conheça o projeto',
                 href: 'https://sgea-new.onrender.com'
