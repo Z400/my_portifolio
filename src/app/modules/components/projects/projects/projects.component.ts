@@ -93,7 +93,8 @@ export class ProjectsComponent {
                 description: 
                   `<p>FTBank, o projeto que promete entregar a ideia similar a um sistema bancário para transferência e 
                   depósito de valores entre usuarios deste mesmo sistema. Este sistema está na reta final de seu desenvolvimento e aborda as seguintes linguagens, sendo elas,
-                  Java, SpringBoot, Angular, e MongoDB, banco de dados não relacional!<p/>`,
+                  Java, SpringBoot, Angular, e MongoDB, banco de dados não relacional!<p/>
+                  <p>Link da apresentação: https://www.linkedin.com/feed/update/urn:li:activity:7312490657166561281/</p>`,
                 link: [{
                   name: 'Conheça o projeto',
                   href: 'https://ftbank-estatico.onrender.com'
